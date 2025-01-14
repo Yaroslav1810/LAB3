@@ -73,7 +73,7 @@ public abstract class Characters {
 
     @Override
     public int hashCode() {
-        return 31 * name.hashCode() + wetness.hashCode();
+        return 31 * name.hashCode();
     }
 
     @Override
